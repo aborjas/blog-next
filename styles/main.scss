@@ -1,0 +1,33 @@
+@import 'variables.scss';
+@import 'fonts.scss';
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem > 10px  
+    @media only screen and (max-width: $bp-large) {
+      font-size: 50%;
+    }
+  }
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', 'sans-serif';
+  line-height: 1.6;
+  font-size: 1.8rem;
+  display: grid;
+  grid-template-rows: 5rem 1fr 1fr 1fr 1fr 1fr 10rem;
+  grid-template-columns: 1fr;
+  grid-template-areas: "header"
+                       "hero"
+                       "about"
+                       "work"
+                       "blog"
+                       "contact"
+                       "footer";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
