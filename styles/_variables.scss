@@ -1,9 +1,9 @@
 // RESPONSIVE BREAKPOINTS
-$bp-largest: 80em; //1280px
-$bp-large: 67.5em; //1080px
-$bp-medium: 56.25em; //900px
-$bp-small: 37.5em; //600px
-$bp-smallest: 31.25em; //500px
+$bp-largest: 80em; //1800px Big desktop
+$bp-large: 67.5em; //1200px Tablet landscape
+$bp-medium: 56.25em; //900px Tablet portrait
+$bp-small: 37.5em; //600px phone
+$bp-smallest: 31.25em; //500px 
 // FONT-SIZES
 $font-size-huge: 3.2rem;
 $font-size-biggest: 2.4rem;
@@ -14,7 +14,46 @@ $font-size-smallest: 1.2rem;
 $font-size-tiny: 1rem;
 // COLORS
 $color-background: rgb(246, 246, 246);
+$color-background1: rgba(255, 226, 226, 0.651);
 $color-light: rgb(255, 226, 226);
 $color-primary: rgb(255, 199, 199);
 $color-light-blue: rgb(215, 213, 247);
+$color-dark-blue: rgb(174, 169, 245);
 $color-dark: rgb(136, 134, 162);
+$color-dark2: rgb(97, 96, 114);
+
+// MEDIA QUERY MANAGER
+/*
+0 - 600px:      Phone
+600 - 900px:    Tablet portrait
+900 - 1200px:   Tablet landscape
+[1200 - 1800] is where our normal styles apply
+1800px + :      Big desktop
+
+$breakpoint arguement choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+
+ORDER: Base + typography > general layout + grid > page layout > components
+
+1em = 16px
+*/
+@mixin respond($breakpoint) {
+  @if $breakpoint == tiny {
+      @media only screen and (max-width: 25em) { @content };    //400px
+  }
+  @if $breakpoint == phone {
+      @media only screen and (max-width: 37.5em) { @content };    //600px
+  }
+  @if $breakpoint == tab-port {
+      @media only screen and (max-width: 56.25em) { @content };     //900px
+  }
+  @if $breakpoint == tab-land {
+      @media only screen and (max-width: 75em) { @content };    //1200px
+  }
+  @if $breakpoint == big-desktop {
+      @media only screen and (min-width: 112.5em) { @content };    //1800
+  }
+}

@@ -4,13 +4,15 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import { Header } from '../components/header'
+import { Hero } from '../components/hero'
 
 
 export default function Home({ allPostsData }) {
   return (
-    <Layout home>
+    <>
       <Header />
-    </Layout>
+      <Hero />
+    </>
   )
 }
 
