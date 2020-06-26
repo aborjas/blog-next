@@ -42,7 +42,7 @@ export const About = () => {
       </div>
       <div className={styles.basic}>
         {BasicInfo.map((value) => (
-          <div className={styles.data}>
+            <div className={styles.data}>
             <h6>{value.info}:</h6>
             <p>{value.description}</p>
           </div>
