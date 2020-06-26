@@ -14,6 +14,7 @@ body {
   font-family: 'Poppins', 'sans-serif';
   line-height: 1.6;
   font-size: 1.8rem;
+  background-color: $color-background;
   display: grid;
   grid-template-rows: 5rem 1fr 1fr 1fr 1fr 1fr 10rem;
   grid-template-columns: 1fr;
@@ -37,13 +38,6 @@ p {
   font-size: $font-size-small;
 }
 
-span {
-  font-size: $font-size-big;
-  color: $color-dark;
-  background-color: $color-primary;
-  border-radius: 5px;
-  padding: .5rem;
-}
 
 h2 {
   font-size: $font-size-huge;
@@ -51,3 +45,7 @@ h2 {
   font-weight: lighter;
 } 
 
+h4,
+h5 {
+  color: $color-dark;
+}

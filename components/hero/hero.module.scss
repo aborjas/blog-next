@@ -13,7 +13,6 @@
   url(../../public/images/hero.jpg);
   background-size: cover;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba(#000, .2);
   align-items: center;
 
   @include respond(tab-land) {
@@ -50,3 +49,10 @@
   justify-content: center;
 }
 
+.span {
+  font-size: $font-size-big;
+  color: $color-dark;
+  background-color: $color-primary;
+  border-radius: 5px;
+  padding: .5rem;
+}

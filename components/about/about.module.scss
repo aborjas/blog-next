@@ -1,0 +1,97 @@
+@import 'variables.scss';
+
+.container {
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include respond(tab-port) {
+    padding: 8rem 3rem;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+
+  @include respond(tiny) {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+.img {
+  display: flex;
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.title {
+  margin-bottom: 7rem;
+  color: $color-dark;
+  
+  border-bottom: solid .2rem transparent;
+}
+
+.span2{
+  border-bottom: solid .2rem $color-dark-blue;
+}
+
+.subtitle {
+  margin-bottom: 1.5rem;
+  color: $color-dark;
+}
+
+.obj {
+ width: 50rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-left: 6rem;
+
+  @include respond(tab-port) {
+   width: 35rem;
+  }
+
+  @include respond(phone) {
+    margin-left: 3rem;
+  }
+
+  @include respond(tiny) {
+    margin-left: 0;
+    margin-bottom: 4rem;
+    
+  }
+
+}
+
+.basic {
+  margin-top: 7rem;
+  width: 100%;
+  display: grid;
+  grid-template-rows:  1fr 1fr;
+  grid-auto-flow: column;
+  grid-auto-columns: auto;
+  grid-column-gap: 8rem;
+  grid-row-gap: 4rem;
+  justify-content: center;
+  
+  @include respond(phone) {
+    grid-template-rows:  1fr 1fr 1fr;
+  }
+
+  @include respond(tiny) {
+    margin-top: 4rem;
+    grid-column-gap: 4rem;
+  }
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}

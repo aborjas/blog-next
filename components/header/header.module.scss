@@ -7,7 +7,7 @@
   height: 5rem;
   display: flex;
   justify-content: center;
-  
+  box-shadow: 0 1.5rem 4rem rgba(#000, .2);
 }
 
 .content {
@@ -17,7 +17,6 @@
   grid-template-areas: "logo . nav";
   grid-column-gap: 4rem;
   width: 100%;
-  max-width: 164rem;
   height: 5rem;
   padding: 0 4rem;
 

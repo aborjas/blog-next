@@ -7,8 +7,8 @@ export const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.info}>
-        <h2><span>Hello World!</span><br/>I'm Adriana Borjas</h2>
-        <p>Engineer and Frontend Developer</p>
+        <h2><span className={styles.span}>Hello World!</span><br/>I'm Adriana Borjas</h2>
+        <p>Engineer | Frontend Developer</p>
         <SocialMedia />
       </div>
     </div>

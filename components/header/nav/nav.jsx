@@ -4,19 +4,19 @@ import styles from './nav.module.scss';
 
 const navigationList = [
   {
-    link: '#',
+    link: '#about',
     name: 'About Me',
   },
   {
-    link: '#',
+    link: '#work',
     name: 'Work',  },
   {
-    link: '#',
+    link: '#blog',
     name: 'Blog',
     
   },
   {
-    link: '#',
+    link: '#contact',
     name: 'Contact',
   },
 ]
