@@ -9,6 +9,9 @@
   @include respond(tab-port) {
     padding: 8rem 3rem;
   }
+  @include respond(phone) {
+    padding: 5rem 2rem;
+  }
 }
 
 .info {
@@ -36,6 +39,10 @@
   color: $color-dark;
   
   border-bottom: solid .2rem transparent;
+
+  @include respond(phone) {
+    margin-bottom: 4rem;
+  }
 }
 
 .span2{
