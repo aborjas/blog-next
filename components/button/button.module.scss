@@ -1,0 +1,55 @@
+@import 'variables.scss';
+
+
+.container {
+  width: fit-content;
+  display: flex;
+  margin-top: 7rem;
+
+}
+
+.btnLight {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  padding: .5rem 1rem;
+  background-color: $color-background;
+  border: solid .15rem $color-dark-blue;
+  color: $color-dark-blue;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24rem;
+  margin-left: 2rem;
+  padding: .5rem 1rem;
+  background-color: $color-dark-blue;
+  color: $color-background;
+  border: none;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+
+.icon {
+  height: 1.8rem;
+  width: auto;
+  path {
+    fill: $color-dark-blue;
+  }
+  padding-left: 1rem;
+}
+
+.iconLight {
+  height: 1.8rem;
+  width: auto;
+  fill: $color-background;
+  path {
+    fill: $color-background;
+  }
+  padding-left: 1rem;
+}

@@ -8,8 +8,8 @@ const navigationList = [
     name: 'About Me',
   },
   {
-    link: '#work',
-    name: 'Work',  },
+    link: '#skills',
+    name: 'Skills',  },
   {
     link: '#blog',
     name: 'Blog',

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import styles from './about.module.scss';
+import { Button } from 'components/button';
 
 const BasicInfo = [
   {
@@ -43,11 +44,12 @@ export const About = () => {
       <div className={styles.basic}>
         {BasicInfo.map((value) => (
             <div className={styles.data}>
-            <h6>{value.info}:</h6>
+            <h6 className={styles.tinyTitle}>{value.info}:</h6>
             <p>{value.description}</p>
           </div>
         ))}
       </div>
+      <Button />
     </section>
   )
 }
