@@ -9,7 +9,7 @@
   @include respond(tab-port) {
     padding: 8rem 3rem;
   }
-  @include respond(phone) {
+  @include respond(tiny) {
     padding: 5rem 2rem;
   }
 }
@@ -40,7 +40,7 @@
   
   border-bottom: solid .2rem transparent;
 
-  @include respond(phone) {
+  @include respond(tiny) {
     margin-bottom: 4rem;
   }
 }
