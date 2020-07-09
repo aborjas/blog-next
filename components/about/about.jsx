@@ -38,7 +38,7 @@ export const About = () => {
         <div className={styles.obj}>
           <h3 className={styles.title}><span className={styles.span2}>About</span> Me</h3>
           <h5 className={styles.subtitle}> Objective</h5>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit molestiae quod explicabo tenetur quo aliquam vitae odit atque voluptas error, quis facilis laudantium, sed ad impedit, nesciunt magni recusandae iste.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit molestiae quod explicabo voluptas error, quis facilis laudantium, sed ad impedit, nesciunt magni recusandae iste.</p>
         </div>
       </div>
       <div className={styles.basic}>
