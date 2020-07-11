@@ -6,23 +6,21 @@
   flex-direction: column;
   align-items: center;
   
-
-  @include respond(tab-port) {
-    padding: 8rem 3rem;
-  }
-  @include respond(tiny) {
-    padding: 5rem 2rem;
-  }
 }
 
 .info {
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   width: 100%;
+  padding: 0 5rem;
+
+  @include respond(phone) {
+    padding: 0;
+  }
 
   @include respond(tiny) {
-    flex-direction: column-reverse;
+    flex-direction: column;
     align-items: center;
   }
 }
@@ -33,14 +31,24 @@
   height: 15rem;
   border-radius: 50%;
   object-fit: cover;
+
+  @include respond(tiny) {
+    margin-bottom: 4rem;
+  }
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: left;
+  width: 100%;
 }
 
 .title {
+  display: block;
   margin-bottom: 7rem;
   color: $color-title;
-  
   border-bottom: solid .2rem transparent;
-
+  text-align: start;
   @include respond(tiny) {
     margin-bottom: 4rem;
   }
@@ -56,14 +64,14 @@
 }
 
 .obj {
- width: 50rem;
+ width: fit-content;
  display: flex;
  flex-direction: column;
  justify-content: center;
  margin-left: 6rem;
 
   @include respond(tab-port) {
-   width: 35rem;
+   width: fit-content;
   }
 
   @include respond(phone) {
@@ -84,18 +92,21 @@
   display: grid;
   grid-template-rows:  1fr 1fr;
   grid-auto-flow: column;
-  grid-auto-columns: auto;
+  grid-auto-columns: .25fr;
   grid-column-gap: 8rem;
   grid-row-gap: 4rem;
   justify-content: center;
   
   @include respond(phone) {
     grid-template-rows:  1fr 1fr 1fr;
+    grid-auto-columns: 20rem;
+    grid-column-gap: 4rem;
   }
 
   @include respond(tiny) {
-    margin-top: 4rem;
+    margin-top: 5rem;
     grid-column-gap: 4rem;
+    grid-auto-columns: 19rem;
   }
 }
 
@@ -106,4 +117,20 @@
 
 .tinyTitle {
   color: $color-dark-blue;
+}
+
+.dataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.icon {
+  height: 1.8rem;
+  width: auto;
+  fill: black;
+  path {
+    fill: $color-dark-blue;
+  }
+  margin-right: 1rem;
 }
