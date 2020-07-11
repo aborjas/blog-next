@@ -1,38 +1,39 @@
 import * as React from 'react';
 import styles from './skills.module.scss';
+import { Level } from './level';
 
 const SkillList = [
   {
     skill: 'HTML',
-    level: '90%',
+    level: '95',
   },
   {
     skill: 'CSS/SASS',
-    level: '90%',
+    level: '95',
   },
   {
     skill: 'JavaScript/Babel',
-    level: '70%'
+    level: '80'
   },
   {
     skill: 'React',
-    level: '65%'
+    level: '75'
   },
   {
     skill: 'Next.js',
-    level: '60%'
-  },
-  {
-    skill: 'Git',
-    level: '90%'
+    level: '80'
   },
   {
     skill: 'Responsive desing',
-    level: '95%'
+    level: '95'
+  },
+  {
+    skill: 'Git',
+    level: '90'
   },
   {
     skill: 'Command line',
-    level: '70%'
+    level: '70'
   },
 ]
 
@@ -44,9 +45,8 @@ export const Skills = () => {
         <div className={styles.skills}>
           {SkillList.map((value) => (
             <div className={styles.skillBox}>
-              <div className={styles.level}>
-                <h4 className={styles.value}>{value.level}</h4>
-              </div>
+              <Level level={value.level}/>
+              <div className={styles.progress}><h4 className={styles.value}>{value.level}%</h4></div>
               <h6 className={styles.skillTitle}>{value.skill}</h6>
               
             </div>
