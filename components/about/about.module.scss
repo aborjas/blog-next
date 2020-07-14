@@ -13,7 +13,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0 5rem;
+  padding: 0 30rem;
+
+  @include respond(tab-land) {
+    padding: 0 10rem;
+  }
 
   @include respond(phone) {
     padding: 0;

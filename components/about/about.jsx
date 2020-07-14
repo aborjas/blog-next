@@ -50,6 +50,7 @@ export const About = () => {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet officia doloremque autem velit a pariatur in quod esse tempora laborum eaque soluta omnis odit eum, sequi inventore incidunt placeat alias. lore ipsum dolor, sit amet consectetur adipisicing elit. Sit molestiae quod explicabo voluptas error, quis facilis laudantium, sed ad impedit, nesciunt magni recusandae iste.</p>
         </div>
       </div>
+      <Button />
       <div className={styles.basic}>
         {BasicInfo.map((value) => (
             <div className={styles.dataContainer}>
@@ -61,7 +62,6 @@ export const About = () => {
             </div>
         ))}
       </div>
-      <Button />
     </section>
   )
 }
