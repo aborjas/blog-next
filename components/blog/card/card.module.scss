@@ -1,54 +1,68 @@
 @import 'variables.scss';
 
 .container {
-  margin: 0 5rem;
-  width: 35rem;
-  height: 55rem;
-  border-radius: .5rem;
-  background-color: $color-background1;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, .2);
+  justify-content: space-between;
+  margin: 0 5rem;
+  padding: 2rem;
+  width: min-content;
+  height: min-content;
+  min-height: 50rem;
+  border: solid .25rem $color-light;
+  border-radius: 1.5rem;
+  background-color: $color-background;
   transition: all ease-in-out .3s;
   &:hover {
     background-color: $color-light;
-  }
-}
-
-.imgContainer {
-  .img {
-    width: 30rem;
-    height: 25rem;
-    object-fit: cover;
-  box-shadow: 0 .5rem .5rem 0 rgba(0, 0, 0, .1);
-    
-  }
-}
-
-.info {
-  
-  .articleTitle {
-    font-size: $font-size-biggest;
-    padding: 0 1.5rem;
-  }
-  .text {
-    padding: 1.5rem;
-    width: 30rem;
-  }
-  .btn{
-    text-decoration: none;
-    color: $color-dark-blue;
-    padding: .2rem 1rem;
-    margin: 1.5rem;
-    transition: all ease-in-out .3s;
-    
-    &:hover {
+    transform: scale(1.01);
+    .btn{
       background-color: $color-dark-blue;
       color: #fff;
       border-bottom: none;
       border-radius: .5rem;
     }
   }
+  @include respond(phone) {
+    flex-direction: row;
+    width: fit-content;
+    height: fit-content;
+    min-height: min-content;
+    margin: 1rem 0;
+  }
+}
+
+.img {
+  width: 30rem;
+  height: 25rem;
+  object-fit: cover;
+  transition: all ease-in-out .3s;
+  overflow: hidden;
+  border-radius: 1.5rem;
+  @include respond(phone) {
+    width: 15rem;
+    height: 15rem;
+    margin-right: 2rem;
+  }
+}
+
+.info {
+  .articleTitle {
+    font-size: $font-size-biggest;
+    padding: 2rem 0;
+    @include respond(phone) {
+      width: 40rem;
+    }
+  }
+  .btn {
+    text-decoration: none;
+    color: $color-dark-blue;
+    padding: .2rem 1rem;
+    transition: all ease-in-out .3s;
+  }
+}
+
+.btnContainer {
+  margin-top: 2rem;
 }

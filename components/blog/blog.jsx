@@ -6,18 +6,18 @@ import { Card } from './card';
 const cardList = [
   {
     image: "/images/articulo1.jpg",
-    title: "Loren ipsum",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro atque ab recusandae, voluptates repellendus ratione tempora.",
+    title: "Loren ipsum dolor sit amen elit quorum lote",
+    link: "#",
   },
   {
     image: "/images/articulo2.jpg",
-    title: "Loren sit",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit recusandae, volup tempora tates ratione repellendus.",
+    title: "Loren sit amet a ratione elit voluptates",
+    link: "#",
   },
   {
     image: "/images/article1.jpg",
-    title: "Loren amet",
-    text: "Lorem ipsum dolor sit amet consectetur a repellendus ratione dipisicing elit. Porro atque ab recusandae, voluptates repellendus ratione tempora.",
+    title: "Loren amet ipsum sit voluptates dolorem quante nole",
+    link: "#",
   },
 ]
 
@@ -30,9 +30,10 @@ export const Blog = () => {
         </div>
         <div className={styles.cardsContainer}>
           <Card {...cardList[0]}/>
-          <Card title={cardList[1].title} image={cardList[1].image} text={cardList[1].text}/>
+          <Card title={cardList[1].title} image={cardList[1].image}/>
           <Card {...cardList[2]}/>
         </div>
+        <a href="#" className={styles.btnSee}>See all &#8594;</a>
       </div>
     </section>
   )
