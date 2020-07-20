@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, .2);
-
+  transition: all ease-in-out .3s;
   &:hover {
     background-color: $color-light;
   }
@@ -42,6 +42,7 @@
     color: $color-dark-blue;
     padding: .2rem 1rem;
     margin: 1.5rem;
+    transition: all ease-in-out .3s;
     
     &:hover {
       background-color: $color-dark-blue;
