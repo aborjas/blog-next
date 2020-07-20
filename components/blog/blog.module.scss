@@ -1,0 +1,28 @@
+@import 'variables.scss';
+
+.container {
+  padding: 10rem 8rem;
+  display: flex;
+  flex-direction: column;
+  background-color: $color-background;
+}
+
+.title {
+  display: block;
+  margin-bottom: 7rem;
+  color: $color-title;
+  border-bottom: solid .2rem transparent;
+  text-align: start;
+  @include respond(tiny) {
+    margin-bottom: 4rem;
+  }
+  .span2{
+    border-bottom: solid .2rem $color-dark-blue;
+  }
+}
+
+.cardsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

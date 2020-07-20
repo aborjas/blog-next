@@ -3,11 +3,13 @@
 .container {
   grid-area: header;
   width: 100%;
-  background-color: $color-background1;
+  background-color: $color-light;
   height: 5rem;
   display: flex;
   justify-content: center;
   box-shadow: 0 1.5rem 4rem rgba(#000, .2);
+  position: fixed;
+  z-index: 10000;
 }
 
 .content {
