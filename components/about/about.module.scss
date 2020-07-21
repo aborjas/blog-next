@@ -53,6 +53,7 @@
   color: $color-title;
   border-bottom: solid .2rem transparent;
   text-align: start;
+  font-size: $font-size-grand;
   @include respond(tiny) {
     margin-bottom: 4rem;
   }

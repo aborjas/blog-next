@@ -7,7 +7,7 @@ export const Hero = () => {
   return (
     <div className={styles.hero}>
       <div className={styles.info}>
-        <h2 classname={styles.name}><span className={styles.span}>Hello World!</span><br/>I'm Adriana Borjas</h2>
+        <h1 classname={styles.name}><span className={styles.span}>Hello World!</span><br/>I'm Adriana Borjas</h1>
         <p class={styles.p}>Engineer | Frontend Developer</p>
         <SocialMedia />
       </div>
