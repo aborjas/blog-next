@@ -1,0 +1,87 @@
+@import 'variables.scss';
+
+.container {
+  padding: 10rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.basic {
+  margin-top: 7rem;
+  width: 100%;
+  display: grid;
+  grid-template-rows:  1fr 1fr;
+  grid-auto-flow: column;
+  grid-auto-columns: .25fr;
+  grid-column-gap: 8rem;
+  grid-row-gap: 4rem;
+  justify-content: center;
+  
+  @include respond(phone) {
+    grid-template-rows:  1fr 1fr 1fr;
+    grid-auto-columns: 20rem;
+    grid-column-gap: 4rem;
+  }
+
+  @include respond(tiny) {
+    margin-top: 5rem;
+    grid-column-gap: 4rem;
+    grid-auto-columns: 19rem;
+  }
+}
+
+.dataContainer {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.icon {
+  height: 1.8rem;
+  width: auto;
+  fill: black;
+  path {
+    fill: $color-dark-blue;
+  }
+  margin-right: 1rem;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.tinyTitle {
+  color: $color-dark-blue;
+}
+
+
+.titleContainer {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+}
+
+.title {
+  display: block;
+  margin-bottom: 7rem;
+  color: $color-title;
+  border-bottom: solid .2rem transparent;
+  text-align: start;
+  font-size: $font-size-grand;
+  @include respond(tiny) {
+    margin-bottom: 4rem;
+  }
+}
+
+.span2{
+  border-bottom: solid .2rem $color-dark-blue;
+}

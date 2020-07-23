@@ -8,6 +8,7 @@ import { Hero } from 'components/hero'
 import { About } from 'components/about'
 import { Skills } from 'components/skills'
 import { Blog } from 'components/blog'
+import { Contact } from 'components/Contact'
 
 
 export default function Home({ allPostsData }) {
@@ -18,6 +19,7 @@ export default function Home({ allPostsData }) {
       <About />
       <Skills />
       <Blog />
+      <Contact />
     </>
   )
 }
