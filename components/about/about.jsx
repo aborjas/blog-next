@@ -2,13 +2,13 @@ import * as React from 'react';
 import styles from './about.module.scss';
 import { Button } from 'components/button';
 import { MainTitle } from 'components/titles';
-
+import {Section} from 'components/section';
 
 
 
 export const About = () => {
   return (
-    <section className={styles.container} id="about">
+    <Section className={styles.container} id="about">
       <MainTitle title="About Me"/>
       <div className={styles.info}>
         <img src="/images/profile.jpg" className={styles.img}/>
@@ -18,7 +18,6 @@ export const About = () => {
         </div>
       </div>
       <Button />
-      
-    </section>
+    </Section>
   )
 }

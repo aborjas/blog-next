@@ -1,0 +1,15 @@
+@import 'variables.scss';
+
+.section {
+  padding: 10rem 8rem;
+  @include respond(medium-desktop) {
+    max-width: 170rem;
+    width: 100%;
+    min-height: 60rem;
+    height: fit-content;
+    border-radius: 1rem;
+  }
+  @include respond(phone) {
+    padding: 8rem 4rem;
+  }
+}

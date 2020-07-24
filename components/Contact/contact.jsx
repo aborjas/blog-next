@@ -3,6 +3,7 @@ import styles from './contact.module.scss';
 import SVG from 'react-inlinesvg';
 import { SocialMedia } from 'components/hero/social-media';
 import { MainTitle } from 'components/titles';
+import {Section} from 'components/section';
 
 const BasicInfo = [
   {
@@ -40,7 +41,7 @@ const BasicInfo = [
 
 export const Contact = () => {
   return(
-    <section className={styles.container} id="contact">
+    <Section className={styles.container} id="contact">
       <MainTitle title="Contact Me"/>
       <div className={styles.info}>
         <div className={styles.basic}>
@@ -58,6 +59,6 @@ export const Contact = () => {
       <div className={styles.social}>
         <SocialMedia />
       </div>
-    </section>
+    </Section>
   )
 }

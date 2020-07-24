@@ -4,22 +4,14 @@ import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import { Header } from 'components/header'
-import { Hero } from 'components/hero'
-import { About } from 'components/about'
-import { Skills } from 'components/skills'
-import { Blog } from 'components/blog'
-import { Contact } from 'components/Contact'
+import { Body } from 'components/body'
 
 
 export default function Home({ allPostsData }) {
   return (
     <>
       <Header />
-      <Hero />
-      <About />
-      <Skills />
-      <Blog />
-      <Contact />
+      <Body />
     </>
   )
 }

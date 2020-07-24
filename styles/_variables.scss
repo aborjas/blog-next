@@ -62,6 +62,9 @@ ORDER: Base + typography > general layout + grid > page layout > components
   @if $breakpoint == tiny-desktop {
       @media only screen and (min-width: 75em) { @content };    //1200px
   }
+  @if $breakpoint == desktop {
+      @media only screen and (max-width: 87.5em) { @content };    //1400px
+  }
   @if $breakpoint == medium-desktop {
       @media only screen and (min-width: 87.5em) { @content };    //1400px
   }

@@ -1,0 +1,18 @@
+@import 'variables.scss';
+
+.container {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  grid-template-rows: repeat(5, max-content);
+  grid-template-columns: 1fr;
+  grid-template-areas: "hero"
+                       "about"
+                       "skills"
+                       "blog"
+                       "contact";
+  @include respond(medium-desktop) {
+    grid-row-gap: 5rem;
+    margin: 10rem 0;
+  }
+}

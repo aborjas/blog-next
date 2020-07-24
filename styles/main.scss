@@ -16,15 +16,8 @@ body {
   font-size: 1.8rem;
   background-color: #fff;
   display: grid;
-  grid-template-rows: 5rem 1fr 1fr 1fr 1fr 1fr 10rem;
+  grid-template-rows: 5rem 1fr 10rem;
   grid-template-columns: 1fr;
-  grid-template-areas: "header"
-                       "hero"
-                       "about"
-                       "work"
-                       "blog"
-                       "contact"
-                       "footer";
 }
 
 * {

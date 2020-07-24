@@ -1,7 +1,7 @@
 @import 'variables.scss';
 
 .container {
-  padding: 10rem 8rem;
+  grid-area: contact;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,13 +10,7 @@
   rgba($color-primary, .5) 100%),
   url(../../public/images/Paris.jpg);
   background-size: cover;
-  @include respond(medium-desktop) {
-    margin: 5rem 10rem;
-    max-width: 170rem;
-    width: 100%;
-    height: 82rem;
-    border-radius: 1rem;
-  }
+  width: 100%;
 }
 
 .info {
@@ -26,27 +20,11 @@
   width: 100%;
 }
 .basic {
-  margin-top: 7rem;
   width: 100%;
-  display: grid;
-  grid-template-rows:  1fr 1fr;
-  grid-auto-flow: column;
-  grid-auto-columns: .25fr;
-  grid-column-gap: 8rem;
-  grid-row-gap: 4rem;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  
-  @include respond(phone) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  @include respond(tiny) {
-    margin-top: 5rem;
-    
-  }
+  align-items: center;
 }
 
 .dataContainer {
@@ -57,6 +35,10 @@
   justify-content: start;
   border-radius: 1rem;
   background-color: rgba(#fff, .7);
+  margin: 3rem 4rem;
+  @include respond(phone) {
+    margin: 1rem 0;
+  }
 }
 
 .icon {
@@ -85,7 +67,7 @@
 }
 
 .social {
-  margin-top: 18rem;
+  margin-top: 7rem;
   background-color: rgba(#fff, .5);
   border-radius: 1rem;
   padding: 0 1rem;
