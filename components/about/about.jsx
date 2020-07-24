@@ -1,6 +1,7 @@
 import * as React from 'react';
 import styles from './about.module.scss';
 import { Button } from 'components/button';
+import { MainTitle } from 'components/titles';
 
 
 
@@ -8,9 +9,7 @@ import { Button } from 'components/button';
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <div className={styles.titleContainer}>
-        <h3 className={styles.title}><span className={styles.span2}>About</span> Me</h3>
-      </div>
+      <MainTitle title="About Me"/>
       <div className={styles.info}>
         <img src="/images/profile.jpg" className={styles.img}/>
         <div className={styles.obj}>

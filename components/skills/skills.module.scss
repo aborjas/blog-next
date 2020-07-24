@@ -6,18 +6,15 @@
   rgba($color-primary, .8) 0%,
   rgba(#fff, .9) 100%),
   url(../../public/images/hero2.jpg);
-
   background-size: cover;
   color: $color-dark;
-}
-
-.title {
-  color: $color-title;
-  font-size: $font-size-grand;
-}
-
-.span2{
-  border-bottom: solid .2rem $color-dark-blue;
+  @include respond(medium-desktop) {
+    margin: 5rem 10rem;
+    max-width: 170rem;
+    width: 100%;
+    height: 60rem;
+    border-radius: 1rem;
+  }
 }
 
 .skills {
@@ -29,13 +26,11 @@
   align-items: center;
   padding: 5rem;
   margin: 5rem 0 0;
-
   @include respond(phone) {
     grid-template-columns: repeat(4, 10rem);
     grid-template-rows: 1fr 1fr;
     grid-gap: 5rem;
   }
-
   @include respond(tiny) {
     grid-template-columns: repeat(2, 10rem);
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -63,12 +58,10 @@
 }
 
 .level {
-  
   background: linear-gradient(0deg, 
   $color-dark-blue 50%,
   rgba($color-dark, .2) 50%);
   position: relative;
-
   &,
   &::before,
   &::after {
@@ -76,7 +69,6 @@
     height: 10rem;
     border-radius: 50%;
   }
-
   &::before,
   &::after {
     position: absolute;
@@ -84,22 +76,18 @@
     left: 0;
     content: "";
   }
-
   &::before {
     background: $color-light content-box;
-    
     padding: .25em;
     box-sizing: border-box;
     z-index: 100;
-
-    }
-
-    &::after {
-      background: linear-gradient(0deg, 
-      $color-dark-blue 50%,
-      transparent 50%);
-      transform: rotate(progress(80));
-    }
+  }
+  &::after {
+    background: linear-gradient(0deg, 
+    $color-dark-blue 50%,
+    transparent 50%);
+    transform: rotate(progress(80));
+  }
 }
 
 .progress {

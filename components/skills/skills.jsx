@@ -1,6 +1,7 @@
 import * as React from 'react';
 import styles from './skills.module.scss';
 import { Level } from './level';
+import { MainTitle } from 'components/titles';
 
 const SkillList = [
   {
@@ -41,7 +42,7 @@ export const Skills = () => {
   return (
     <section className={styles.container} id="skills">
       <div className={styles.content}>
-        <h3 className={styles.title}><span className={styles.span2}>Professional</span> Skills</h3>
+        <MainTitle title="Professional Skills"/>
         <div className={styles.skills}>
           {SkillList.map((value) => (
             <div className={styles.skillBox}>

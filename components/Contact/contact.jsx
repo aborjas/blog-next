@@ -1,6 +1,8 @@
 import * as React from 'react';
 import styles from './contact.module.scss';
 import SVG from 'react-inlinesvg';
+import { SocialMedia } from 'components/hero/social-media';
+import { MainTitle } from 'components/titles';
 
 const BasicInfo = [
   {
@@ -9,14 +11,14 @@ const BasicInfo = [
     description: "Adriana Borjas",
   },
   {
-    url: "/images/social/age.svg",
-    info: "Age",
-    description: "25",
-  },
-  {
     url: "/images/social/phone.svg",
     info: "Phone",
     description: "+58 412-105-9481",
+  },
+  {
+    url: "/images/social/email.svg",
+    info: "E-mail",
+    description: "aborjasmontiel@gmail.com",
   },
   {
     url: "/images/social/nationality.svg",
@@ -24,14 +26,14 @@ const BasicInfo = [
     description: "Venezuelan",
   },
   {
+    url: "/images/social/age.svg",
+    info: "Age",
+    description: "25 years old",
+  },
+  {
     url: "/images/social/location.svg",
     info: "Location",
     description: "Maracaibo, Venezuela",
-  },
-  {
-    url: "/images/social/email.svg",
-    info: "E-mail",
-    description: "aborjasmontiel@gmail.com",
   },
   
 ]
@@ -39,9 +41,7 @@ const BasicInfo = [
 export const Contact = () => {
   return(
     <section className={styles.container} id="contact">
-      <div className={styles.titleContainer}>
-        <h3 className={styles.title}><span className={styles.span2}>Contact</span> Me</h3>
-      </div>
+      <MainTitle title="Contact Me"/>
       <div className={styles.info}>
         <div className={styles.basic}>
           {BasicInfo.map((value) => (
@@ -49,12 +49,15 @@ export const Contact = () => {
                 <SVG className={styles.icon} src={value.url}/>
                 <div className={styles.data}>
                   <h6 className={styles.tinyTitle}>{value.info}:</h6>
-                  <p>{value.description}</p>
+                  <p className={styles.p}>{value.description}</p>
                 </div>
               </div>
           ))}
         </div>
-      </div>  
+      </div>
+      <div className={styles.social}>
+        <SocialMedia />
+      </div>
     </section>
   )
 }

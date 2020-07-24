@@ -24,6 +24,7 @@ $color-dark-blue: rgb(174, 169, 245);
 $shadow-blue: rgba(174, 169, 245, .5);
 $color-title: rgb(136, 134, 162);
 $color-title1: rgb(102, 102, 102);
+$color-dark-light: rgba(136, 134, 162, 0.2);
 $color-dark: rgb(136, 134, 162);
 $color-dark2: rgb(97, 96, 114);
 
@@ -58,8 +59,14 @@ ORDER: Base + typography > general layout + grid > page layout > components
   @if $breakpoint == tab-land {
       @media only screen and (max-width: 75em) { @content };    //1200px
   }
+  @if $breakpoint == tiny-desktop {
+      @media only screen and (min-width: 75em) { @content };    //1200px
+  }
+  @if $breakpoint == medium-desktop {
+      @media only screen and (min-width: 87.5em) { @content };    //1400px
+  }
   @if $breakpoint == big-desktop {
-      @media only screen and (min-width: 112.5em) { @content };    //1800
+      @media only screen and (min-width: 112.5em) { @content };    //1800px
   }
 }
 

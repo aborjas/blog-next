@@ -5,7 +5,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  background-image: linear-gradient(105deg, 
+  rgba(#fff, .9) 0%,
+  rgba($color-primary, .5) 100%),
+  url(../../public/images/Paris.jpg);
+  background-size: cover;
+  @include respond(medium-desktop) {
+    margin: 5rem 10rem;
+    max-width: 170rem;
+    width: 100%;
+    height: 82rem;
+    border-radius: 1rem;
+  }
 }
 
 .info {
@@ -26,22 +37,26 @@
   justify-content: center;
   
   @include respond(phone) {
-    grid-template-rows:  1fr 1fr 1fr;
-    grid-auto-columns: 20rem;
-    grid-column-gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   @include respond(tiny) {
     margin-top: 5rem;
-    grid-column-gap: 4rem;
-    grid-auto-columns: 19rem;
+    
   }
 }
 
 .dataContainer {
+  padding: 2rem 4rem;
+  width: 38rem;
   display: flex;
   align-items: center;
   justify-content: start;
+  border-radius: 1rem;
+  background-color: rgba(#fff, .7);
 }
 
 .icon {
@@ -57,31 +72,21 @@
 .data {
   display: flex;
   flex-direction: column;
+  font-size: $font-size-big;
 }
 
 .tinyTitle {
   color: $color-dark-blue;
+  font-size: $font-size-big;
 }
 
-
-.titleContainer {
-  display: flex;
-  justify-content: left;
-  width: 100%;
+.p{
+  font-size: $font-size-big;
 }
 
-.title {
-  display: block;
-  margin-bottom: 7rem;
-  color: $color-title;
-  border-bottom: solid .2rem transparent;
-  text-align: start;
-  font-size: $font-size-grand;
-  @include respond(tiny) {
-    margin-bottom: 4rem;
-  }
-}
-
-.span2{
-  border-bottom: solid .2rem $color-dark-blue;
+.social {
+  margin-top: 18rem;
+  background-color: rgba(#fff, .5);
+  border-radius: 1rem;
+  padding: 0 1rem;
 }

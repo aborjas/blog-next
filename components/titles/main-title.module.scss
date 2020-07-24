@@ -1,0 +1,24 @@
+@import 'variables.scss';
+
+.titleContainer {
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  .title {
+    display: block;
+    margin-bottom: 7rem;
+    color: $color-title;
+    border-bottom: solid .2rem transparent;
+    text-align: start;
+    font-size: $font-size-grand;
+    @include respond(tiny) {
+      margin-bottom: 4rem;
+    }
+  }
+  .span2{
+    border-bottom: solid .2rem $color-dark-blue;
+  }
+}
+
+
+
