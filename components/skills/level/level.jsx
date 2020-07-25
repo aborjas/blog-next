@@ -19,6 +19,10 @@ export const Level = ({level}) => {
                   height: 10rem;
                   border-radius: 50%;
                 }
+                .level,
+                .level::after {
+                  transform: rotate(270deg);
+                }
 
                 .level::before,
                 .level::after {
@@ -30,7 +34,6 @@ export const Level = ({level}) => {
 
                 .level::before {
                   background: rgb(255, 226, 226) content-box;
-                  
                   padding: .25em;
                   box-sizing: border-box;
                   z-index: 100;

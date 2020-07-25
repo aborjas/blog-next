@@ -6,11 +6,11 @@ import { MainTitle } from 'components/titles';
 import {Section} from 'components/section';
 
 const BasicInfo = [
-  {
+  /*{
     url: "/images/social/name.svg",
     info: "Name",
     description: "Adriana Borjas",
-  },
+  },*/
   {
     url: "/images/social/phone.svg",
     info: "Phone",
@@ -21,7 +21,7 @@ const BasicInfo = [
     info: "E-mail",
     description: "aborjasmontiel@gmail.com",
   },
-  {
+  /*{
     url: "/images/social/nationality.svg",
     info: "Nationality",
     description: "Venezuelan",
@@ -35,7 +35,7 @@ const BasicInfo = [
     url: "/images/social/location.svg",
     info: "Location",
     description: "Maracaibo, Venezuela",
-  },
+  }, */
   
 ]
 

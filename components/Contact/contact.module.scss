@@ -29,15 +29,15 @@
 
 .dataContainer {
   padding: 2rem 4rem;
-  width: 38rem;
+  width: 36rem;
   display: flex;
   align-items: center;
   justify-content: start;
   border-radius: 1rem;
   background-color: rgba(#fff, .7);
-  margin: 3rem 4rem;
-  @include respond(phone) {
-    margin: 1rem 0;
+  margin: 1rem;
+  @include respond(tab-port) {
+    margin: 1rem;
   }
 }
 
@@ -63,11 +63,11 @@
 }
 
 .p{
-  font-size: $font-size-big;
+  font-size: $font-size-biggest;
 }
 
 .social {
-  margin-top: 7rem;
+  margin-top: 10rem;
   background-color: rgba(#fff, .5);
   border-radius: 1rem;
   padding: 0 1rem;

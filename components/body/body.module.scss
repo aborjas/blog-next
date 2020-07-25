@@ -13,6 +13,6 @@
                        "contact";
   @include respond(medium-desktop) {
     grid-row-gap: 5rem;
-    margin: 10rem 0;
+    margin: 10rem 0 0;
   }
 }

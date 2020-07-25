@@ -14,7 +14,7 @@
   display: grid;
   grid-template-columns: repeat(8, 10rem);
   grid-template-rows: 1fr;
-  grid-column-gap: 3rem;
+  grid-column-gap: 4rem;
   justify-content: center;
   align-items: center;
   margin: 5rem 0 0;
@@ -43,8 +43,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 14rem;
-  font-size: $font-size-small;
+  width: 16rem;
+  font-size: $font-size-medium;
   color: $color-dark;
 
 }

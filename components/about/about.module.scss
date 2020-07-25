@@ -6,9 +6,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  @include respond(medium-desktop) {
-    height: 60rem;
-  }
 }
 
 .info {
@@ -16,17 +13,11 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 0 30rem;
-
+  padding: 0 15rem;
   @include respond(tab-land) {
-    padding: 0 10rem;
+    padding: 0 5rem;
   }
-
   @include respond(phone) {
-    padding: 0;
-  }
-
-  @include respond(tiny) {
     flex-direction: column;
     align-items: center;
   }
@@ -47,29 +38,30 @@
 .subtitle {
   margin-bottom: 1.5rem;
   color: $color-dark;
+  font-size: $font-size-biggest;
+}
+
+.p {
+  font-size: $font-size-big;
 }
 
 .obj {
- width: fit-content;
- display: flex;
- flex-direction: column;
- justify-content: center;
- margin-left: 6rem;
-
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 6rem;
   @include respond(tab-port) {
    width: fit-content;
   }
-
   @include respond(phone) {
     margin-left: 3rem;
   }
-
   @include respond(tiny) {
     margin-left: 0;
     margin-bottom: 4rem;
     
   }
-
 }
 
 

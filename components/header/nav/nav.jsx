@@ -5,7 +5,7 @@ import styles from './nav.module.scss';
 const navigationList = [
   {
     link: '#about',
-    name: 'About Me',
+    name: 'About',
   },
   {
     link: '#skills',
