@@ -44,7 +44,7 @@ export const Skills = () => {
   return (
     <Section className={styles.container} id="skills">
       <div className={styles.content}>
-        <MainTitle title="Professional Skills"/>
+        <MainTitle title="Technical Skills"/>
         <div className={styles.skills}>
           {SkillList.map((value) => (
             <div className={styles.skillBox}>
