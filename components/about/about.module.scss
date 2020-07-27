@@ -30,7 +30,7 @@
   border-radius: 50%;
   object-fit: cover;
 
-  @include respond(tiny) {
+  @include respond(phone) {
     margin-bottom: 4rem;
   }
 }
