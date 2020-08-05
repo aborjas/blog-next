@@ -13,6 +13,7 @@
   border-radius: 1.5rem;
   background-color: $color-background;
   transition: all ease-in-out .3s;
+  text-decoration: none;
   &:hover {
     background-color: $color-light;
     transform: scale(1.01);

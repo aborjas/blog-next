@@ -12,7 +12,7 @@ const socialMediaList = [
     icon: '/images/social/instagram.svg',
   },
   {
-    link: 'https://facebook.com/',
+    link: 'https://facebook.com/adriborjasm/',
     icon: '/images/social/facebook.svg',
   },
   {
