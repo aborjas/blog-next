@@ -6,17 +6,17 @@ import {Section} from 'components/section';
 
 const cardList = [
   {
-    image: "/images/articulo1.jpg",
-    title: "Loren ipsum dolor sit amen elit quorum lote",
-    link: "#",
-  },
-  {
     image: "/images/articulo2.jpg",
-    title: "Loren sit amet a ratione elit voluptates",
+    title: "From petroleum engineer to frontend developer",
     link: "#",
   },
   {
     image: "/images/article1.jpg",
+    title: "Loren sit amet a ratione elit voluptates",
+    link: "#",
+  },
+  {
+    image: "/images/articulo1.jpg",
     title: "Loren amet ipsum sit voluptates dolorem quante nole",
     link: "#",
   },

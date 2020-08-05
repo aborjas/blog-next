@@ -4,7 +4,11 @@ import SVG from 'react-inlinesvg';
 
 const socialMediaList = [
   {
-    link: 'https://instagram.com',
+    link: 'http://github.com/aborjas',
+    icon: '/images/social/github.svg',
+  },
+  {
+    link: 'https://instagram.com/adri.code/',
     icon: '/images/social/instagram.svg',
   },
   {
@@ -12,11 +16,11 @@ const socialMediaList = [
     icon: '/images/social/facebook.svg',
   },
   {
-    link: 'https://linkedin.com/',
+    link: 'https://linkedin.com/in/adriborjas',
     icon: '/images/social/linkedin.svg',
   },
   {
-    link: '#',
+    link: 'http://t.me/adriborjas',
     icon: '/images/social/telegram.svg',
   },
 ] 

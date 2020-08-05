@@ -25,9 +25,9 @@
 
 .img {
   display: flex;
-  width: 15rem;
-  height: 15rem;
-  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 5rem;
   object-fit: cover;
 
   @include respond(phone) {
