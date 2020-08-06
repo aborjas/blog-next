@@ -1,0 +1,27 @@
+@import 'variables.scss';
+
+.container {
+  padding: 10rem 8rem;
+}
+
+.backToHome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  padding: .5rem 1rem;
+  border-radius: 1rem;
+  text-decoration: none;
+  margin: 0 1rem;
+  background-color: $color-dark-blue;
+  border: solid .15rem $color-dark-blue;
+  text-decoration: none;
+  color: $color-background;
+  transition: all ease-in-out .3s;
+
+  &:hover {
+    transform: scale(1.02);
+    
+  }
+}

@@ -1,0 +1,35 @@
+//Spanish
+
+En el mundo del desarrollo web podemos encontrar desarrolladores frontend, backend y fullstack, siendo los últimos los capaces de trabajar 
+con las dos primeras áreas. Los desarrolladores backend se enfocan en el funcionamiento de las páginas web y todo lo relacionado con base de 
+datos y servidores. ¿Qué hace un desarrollador frontend? we´ll go deeper in that.
+
+El desarrollo frontend maneja la parte visible de las páginas web. Luego que el diseñador web haya concluido su trabajo y haya un diseño 
+aprobado por el cliente, es trabajo del desarrollador frontend convertirlo en código, para que puedas ver y sentir el sitio en el navegador. 
+El desarrollo frontend está fuertemente relacionado con el diseño web y en algunos casos el desarrollador puede encargarse del responsive 
+designe o del diseño de la misma.
+  
+Te gustaría ser un frontend developer? Pues aquí tienes los primeros pasos para convertirte en uno de ellos
+
+1. Debes tener una PC o laptop, esto es un requisito fundamental, sin una pc o latop con internet no puedes escribir, analizar y probar código. 
+Tip: Toma en cuenta que hay procedimientos que se hacen de diferentes formas dependiendo del sistema operativo.
+
+2. Descarga tu editor de texto. Éste será la herramienta donde escribirás tu código, sea cual sea el lenguaje que utilices. Visual Studio Code, 
+Sublime Text y Atom son los más sonados, el primero es el más recomendado. Tip: Asegurate de configurar tu editor de texto con temas, colores, 
+fuentes, entre otros, que te ayuden a sentirte más comodo ya que pasarás la mayor parte de tu día escribiendo allí.
+
+3. Aprende inglés y no te conformes con lo básico. Aunque si estás familiarizado con el idioma no te costará mucho trabajo codear o analizar 
+código, manejarlo de forma avanzada te abrirá puertas incluso en trabajos mejor renmunerados. 
+
+4. Aprende HTML, CSS y JS. Con HTML creas el contenido o los elementos que conforman la página web, como encabezados, títulos, imágenes y más, 
+mientras que con CSS aplicas los estilos a los elementos (fuente, color, tamaño...) y finalmente JavaScript (vainilla) básicamente para programar 
+los efectos dinámicos de la página web. Tip: No intentes entender JavaScript a la perfección de buenas a primeras. Investigar y guíarte de como lo 
+usan los demás será una gran ayuda desde el principio.
+
+5. Maneja las versiones de tus archivos con sistemas de Control de Versiones Distribuidos (como Git, Mercurial o Bazaar), esto te permitirá 
+registrar los cambios que realices y también regresar a versiones anteriores de tus archivos. Es importante que sepas que es algo que puedes aprender 
+incluso antes de aprender a programar y que no solo podras usarlo en esta área sino también para diseños web, edición de fotos, y archivos en general. 
+
+En internet puedes encontrar mucha información como artículos, tutoriales, cursos y si piensas unirte al mundo de la programación deberas saber que, 
+como en muchas carreras, siempre vas a necesitar mucha práctica e investigación para seguir aprendiendo y mantenerte actualizado que es algo super 
+importante y hará la diferencia entre ser uno más del montón o ser el mejor. (giño)  

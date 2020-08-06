@@ -6,13 +6,14 @@ import { Skills } from 'components/skills';
 import { Blog } from 'components/blog';
 import { Contact } from 'components/Contact';
 
-export const Body = () => {
+
+export const Body = ({posts}) => {
   return (
     <div className={styles.container}>
       <Hero />
       <About />
       <Skills />
-      <Blog />
+      <Blog posts={posts}/>
       <Contact />
     </div>
   )

@@ -4,6 +4,7 @@ import { Card } from './card';
 import {Section} from 'components/section';
 
 
+
 const cardList = [
   {
     image: "/images/articulo2.jpg",
@@ -12,7 +13,7 @@ const cardList = [
   },
   {
     image: "/images/article1.jpg",
-    title: "Loren sit amet a ratione elit voluptates",
+    title: "First steps to become a frontend developer",
     link: "#",
   },
   {
@@ -22,7 +23,7 @@ const cardList = [
   },
 ]
 
-export const Blog = () => {
+export const Blog = ({ posts }) => {
   return (
     <Section className={styles.container} id="blog">
       <div className={styles.titleContainer}>
@@ -30,9 +31,9 @@ export const Blog = () => {
         <a href="#" className={styles.btnSee}>See all &#8594;</a>
       </div>
       <div className={styles.cardsContainer}>
-        <Card {...cardList[0]}/>
-        <Card title={cardList[1].title} image={cardList[1].image}/>
-        <Card {...cardList[2]}/>
+        {posts.map(post => (
+          <Card id={post.id} title={post.title} image={post.image}/>
+        ))}
       </div>
     </Section>
   )

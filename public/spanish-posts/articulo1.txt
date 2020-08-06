@@ -1,0 +1,19 @@
+
+---
+title: 'De ingeniera de petróleo a frontend developer.'
+date: '2020-07-31'
+---
+
+//Spanish
+
+¡Hola a todos! Soy Adriana Borjas, ingeniera petrolera y desarrolladora frontend ... ¿Qué extraña mezcla no crees? : sweat_smile: 
+
+Seguramente cuando relacionas la ingeniería con el desarrollo web, piensas en las áreas de sistemas y computación como carreras afines, tal vez agregues a la lista otras como electrónica pero ¿petróleo? 
+
+Pues sí, así como piensas, yo tampoco le he encontado mucha afinidad : sweat_smile:  Sin enbargo, el estudio de la ingeniería  (sin importar el área que elijas) te capacita para resolver problemas, a través del pensamiento lógico y analizando todos los factores a considerar y ESTA maravilla es la que puedes aplicar día a día, en cada área y en la vida misma. 
+
+Pero ¿cómo termina una ingeniera en petróleo QUERIENDO ser desarrolladora Frontend? Pues muchos factores influyen xD En mi caso no tener clara el área de la ingenieria en la que quería desempeñarme al inicio de mis estudios universitarios, vivir en un país cuya economía se desmorona día a día y los salarios en las empresas donde puedes conseguir empleo no son suficientes, las empresas transnacionales viven una constante lucha por obtener permisos para seguir trabajando en el país y se te hace muy dificil entrar si no tienes un buen contacto. Después de graduarme me tocó enfrentarme con este montón de problemas que me hicieron replantearme lo que quiero para mi futuro y ¿qué puedo hacer para alcanzarlo?
+
+La situación del país no solo te afecta económicamente, lo hace en todo, aunque intentes de todas las formas posibles evitarlo. Muchas familias como la mía, se han separado pues cada quién busca la comodidad y bienestar que (aunque yo siga intentándolo todos los días) no podemos conseguir. Y piensas, si lo que he hecho hasta ahora no ha funcionado, entonces debo cambiarlo, pero esta vez se más sobre lo que quiero... Quiero un trabajo que me permita cubrir las necesidades básicas de mi familia, que me permita viajar para visitar a mis hermanos que estan regados por el mundo, que pueda trabajar desde casa o desde cualquier lugar donde me encuentre y pues ya ustedes saben cómo terminó xD
+
+Estudiar ingeniería cambió mi vida de muchas formas, cambió mi forma de pensar, actuar y puso en mi camino mucha gente valiosa que ha aportado muchas cosas buenas a mi vida, entre ellas encontré a un increíble Full Stack Developer, quien es mi amigo, y mi compañero de vida y ahora también mi guía en el mundo del desarrollo web. Además fui muy afortunada de obtener una beca de PLATZI, la cual aproveché durante un año ¿Qué cursos hice? ¿Cómo emepcé? Mantente atento a los próximos artículos (giño).
