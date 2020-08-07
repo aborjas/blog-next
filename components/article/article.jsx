@@ -11,10 +11,11 @@ export const Article = ({ postData }) => {
         <title>{postData.title}</title>
       </Head>
       <article className={styles.art}>
-        <h1 className={styles.artTitle}>{postData.title}</h1>
-        <div className={styles.dateBox}>
+      <div className={styles.dateBox}>
           <Date className={styles.date} dateString={postData.date} />
         </div>
+        <h1 className={styles.artTitle}>{postData.title}</h1>
+        <img src={postData.image} className={styles.img} />
         <div className={styles.mdText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>

@@ -2,6 +2,14 @@
 
 .container {
   padding: 10rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btnBox {
+  width: 80rem;
+  margin-top: 5rem;
 }
 
 .backToHome {

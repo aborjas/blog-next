@@ -1,20 +1,29 @@
 @import 'variables.scss';
 
 .art{
-  padding: 3.5rem 16rem;
-
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  max-width: 80rem;
+  
 }
 
 .artTitle {
   margin-bottom: 3rem;
+  
 }
 
 .dateBox {
-  margin-bottom: 1rem;
+  font-size: $font-size-small;
+  color: $color-dark;
 }
 
-.date {
-
+.img {
+  width: 70rem;
+  height: 60rem;
+  object-fit: cover;
+  margin-bottom: 3rem;
+  align-self: center;
 }
 
 .mdText {
