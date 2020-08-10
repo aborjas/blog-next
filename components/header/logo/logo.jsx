@@ -6,7 +6,7 @@ import Link from 'next/link';
 export const Logo = () => {
   return (
     <Link href="#">
-      <a href="#" className={styles.logo}>
+      <a className={styles.logo}>
         <img className={styles.icon} src="/images/logo.png"/>
       </a>
     </Link>

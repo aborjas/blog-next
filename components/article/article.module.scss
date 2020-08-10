@@ -27,5 +27,14 @@
 }
 
 .mdText {
-
+  h3{
+    
+    color: $color-dark;
+    margin-bottom: 2rem;
+  }
+  p{
+    font-size: $font-size-big;
+    margin-bottom: 2rem;
+    color: $color-title1;
+  }
 }
