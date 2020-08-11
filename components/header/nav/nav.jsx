@@ -4,19 +4,19 @@ import styles from './nav.module.scss';
 
 const navigationList = [
   {
-    link: 'https://adriborjas/#about',
+    link: '#about',
     name: 'About',
   },
   {
-    link: 'https://adriborjas/#skills',
+    link: '#skills',
     name: 'Skills',  },
   {
-    link: 'https://adriborjas/#blog',
+    link: '#blog',
     name: 'Blog',
     
   },
   {
-    link: 'https://adriborjas/#contact',
+    link: '#contact',
     name: 'Contact',
   },
 ]

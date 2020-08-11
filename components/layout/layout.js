@@ -16,6 +16,7 @@ export default function Layout({ children, home }) {
           content="Hello world! I'm Adriana Borjas"
         />
       </Head>
+      <Header />
       <main>{children}</main>
       {!home && (
         <div className={styles.btnBox} >
