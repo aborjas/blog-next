@@ -15,7 +15,9 @@ export const Article = ({ postData }) => {
           <Date className={styles.date} dateString={postData.date} />
         </div>
         <h1 className={styles.artTitle}>{postData.title}</h1>
-        <img src={postData.image} className={styles.img} />
+        <figure className={styles.imgBox}>
+          <img src={postData.image} className={styles.img} />
+        </figure>
         <div className={styles.mdText} dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
       </article>
     </Layout>

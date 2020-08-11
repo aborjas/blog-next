@@ -22,12 +22,23 @@
   }
 }
 
-.img {
+.imgBox{
   width: 80rem;
   height: 60rem;
-  object-fit: cover;
-  margin-bottom: 3rem;
   align-self: center;
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid .3rem $color-primary;
+}
+
+.img {
+  width: 70rem;
+  height: 50rem;
+  object-fit: cover;
+  border-radius: 3rem;
 }
 
 .mdText {
