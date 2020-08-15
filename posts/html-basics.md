@@ -6,7 +6,7 @@ image: 'https://adriborjas.com/images/article8.jpg'
 
 Hello again! If you are interested in becoming a web developer it is essential to know what **HTML (HyperText Markup Language)** is, and to understand its semantics well in order to use it correctly.
 
-HTML is used to define the structure and content of a web page, to represent the content of our web pages verbatim. 
+HTML is used to define the structure and content of a web page, to represent it verbatim. 
 
 When we talk about tags, we refer to **opening** (<>) and **closing** (</>) markers, which indicate the **meaning of the text between them**, which together make up an **HTML element**.
 
