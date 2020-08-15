@@ -1,0 +1,49 @@
+Fundamentos de HTML
+
+¡Hola de nuevo! Si ha leído mis otros artículos y está interesado en convertirse en desarrollador web no dudes en acompañarme en este camino de aprendizaje que he preparado para ti.
+
+Es fundamental para un desarrollador web (frontend y backend) saber qué es HTML y entender bien su semantica para poder usarlo de forma correcta.
+
+El HyperText Markup Language es ,para algunos, un lenguaje de programación, para otros, un lenguaje de etiquetas, que se usa para definir la estructura y contenido de una página web.
+
+Con el código HTML, representamos textualmente el contenido de nuestras páginas web. Cuando hablamos de etiquetas nos referimos a marcadores de apertura (<>) y cierre (</>), que nos indican el significado del texto que lleva entre ellas, siendo ésto en conjunto las que conforman un elemento HTML.
+
+Las etiquetas de apertura cuenta con una serie de atributos que ueden o no ser usados, con los cuales se le asignan ciertas propiedades al elemento. 
+
+<etiqueta de apertura. atributo="valor"> Texto </etiqueta de cierre>  
+
+Para escribir código HTML vas a necesitar tu editor de texto (Les recomiendo Visual Studio Code) y crear tu archivo con la extensión .htm o .html.
+ 
+Para crear tu documento html puedes escribir un signo de exclamación cerrado (!) y presionar la tecla enter. También puedes escribir lo siguiente:  
+
+...
+
+En las primeras dos líneas defines el tipo de documento y creas el elemento html con su etiqueta y el atributo lang, con la que indicas el idioma en el que se encuentra el documento. luego nos encontramos con la etiqueta <head> donde se coloca la información general como titulos, enlaces a archivos como CSS y otros con las etiquetas  <title>, <link> y <meta>. 
+
+Por último encontramos la etiqueta <body>, a mi parecer, la más divertida de todas, y es donde colocas el contenido general como el encabezado, las secciones conformadas por imágenes, tablas, párrafos, tarjetas, entre muchas cosas y utilizando una gran variedad de etiquetas como <header>, <figure>, <section>, <p>, <div>, <img> (la cual es una excepción y no tiene etiqueta de cierre) y más. 
+
+/////////////////////
+
+HTML basics
+
+Hello again! If you have read my other articles and are interested in becoming a web developer do not hesitate to join me on this learning path that I have prepared for you.
+
+It is essential for a web developer (frontend and backend) to know what HTML is and to understand its semantics well in order to use it correctly.
+
+The HyperText Markup Language is, for some, a programming language, for others, a markup language, which is used to define the structure and content of a web page.
+
+With the HTML code, we represent the content of our web pages verbatim. When we talk about tags, we refer to opening (<>) and closing (</>) markers, which indicate the meaning of the text between them, which together make up an HTML element.
+
+The opening tags have a series of attributes that may or may not be used, with which certain properties are assigned to the element.
+
+<opening tag. attribute = "value"> Text </ closing tag>
+
+To write HTML code you will need your text editor (I recommend Visual Studio Code) and create your file with the extension .htm or .html.
+ 
+To create your html document you can type a closed exclamation point (!) And hit the enter key. You can also write the following:
+
+...
+
+In the first two lines you define the type of document and create the html element with its tag and the lang attribute, with which you indicate the language in which the document is located. then we find the <head> tag where general information such as titles, links to files like CSS and others with the <title>, <link> and <meta> tags are placed.
+
+Finally we find the <body> tag, in my opinion, the funniest of all, and it is where you place the general content such as the heading, the sections made up of images, tables, paragraphs, cards, among many things and using a great variety of tags like <header>, <figure>, <section>, <p>, <div>, <img> (which is an exception and has no closing tag) and more.
