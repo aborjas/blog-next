@@ -1,5 +1,5 @@
 ---
-title: 'HTML basics'
+title: 'Start learning HTML'
 date: '2020-08-15'
 image: 'https://adriborjas.com/images/article8.jpg'
 ---

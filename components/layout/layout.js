@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import styles from './layout.module.scss'
 import Link from 'next/link'
-import { Header } from 'components/header';
+
 
 const name = 'Adriana Borjas'
 export const siteTitle = `Adriana Borjas' Website`;
@@ -16,7 +16,6 @@ export default function Layout({ children, home }) {
           content="Hello world! I'm Adriana Borjas"
         />
       </Head>
-      <Header />
       <main>{children}</main>
       {!home && (
         <div className={styles.btnBox} >
