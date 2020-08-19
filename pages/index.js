@@ -24,9 +24,6 @@ export default function Home({ allPostsData }) {
         images: [
           {
             url: 'https://adriborjas.com/images/fondo.png',
-            width: 1200,
-            height: 627,
-            alt: 'img alt',
           }
         ],
         site_name: 'Adriana Borjas',
