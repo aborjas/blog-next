@@ -14,17 +14,18 @@ export default function Home({ allPostsData }) {
     <>
       <NextSeo
       title="Adriana Borjas"
-      description="Hello there! I'm Adriana Borjas, an engineer and front-end developer with additional studies in graphic design. Take a look of my work here."
+      description="Hello there! I'm an engineer and front-end developer with additional studies in graphic design. Take a look of my work here."
       canonical="https://adriborjas.com/"
       openGraph={{
+        type: 'website',
         url: 'https://adriborjas.com/',
         title: 'Adriana Borjas',
         description: `Hello there! I'm an engineer and front-end developer with additional studies in graphic design. Take a look of my work here.`,
         images: [
           {
             url: 'https://adriborjas.com/images/fondo.png',
-            width: 800,
-            height: 600,
+            width: 1200,
+            height: 627,
             alt: 'img alt',
           }
         ],
