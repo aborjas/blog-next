@@ -19,7 +19,7 @@ export default function Home({ allPostsData }) {
       openGraph={{
         url: 'https://adriborjas.com/',
         title: 'Adriana Borjas',
-        description: `Hello there! I'm Adriana Borjas, an engineer and front-end developer with additional studies in graphic design. Take a look of my work here.`,
+        description: `Hello there! I'm an engineer and front-end developer with additional studies in graphic design. Take a look of my work here.`,
         images: [
           {
             url: 'https://adriborjas.com/images/fondo.png',
