@@ -20,17 +20,13 @@ export default function Post({postData}) {
       <NextSeo
       title={postData.title}
       description={postData.description}
-      canonical={`https://adriborjas.com/posts/${id}`}
+      canonical={`https://adriborjas.com/posts/${postData.id}`}
       openGraph={{
         type: 'website',
-        url: `https://adriborjas.com/posts/${id}`,
+        url: `https://adriborjas.com/posts/${postData.id}`,
         title: postData.title,
         description: postData.description,
-        images: [
-          {
-            url: postData.image,
-          }
-        ],
+        images:[{url: postData.image,}],
         site_name: 'Adriana Borjas',
       }}
       />
