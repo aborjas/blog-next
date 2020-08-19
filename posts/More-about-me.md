@@ -2,7 +2,7 @@
 title: 'From petroleum engineer to frontend developer.'
 date: '2020-07-31'
 image: 'https://adriborjas.com/images/article2.jpg'
-descrition: "Hello there! I'm Adriana Borjas, petroleum engineer and frontend developer... What a strange mix don't you think?"
+description: "Hello there! I'm Adriana Borjas, petroleum engineer and frontend developer... What a strange mix don't you think?"
 ---
 
 ### Hello there! I'm **Adriana Borjas**, petroleum engineer and frontend developer... What a strange mix don't you think?
