@@ -2,6 +2,7 @@
 title: 'Five steps to become a frontend developer'
 date: '2020-08-06'
 image: 'https://adriborjas.com/images/article5.jpg'
+descrition: 'Do you know somthing about Frontend development? let's talk about this!'
 ---
 ### Do you know somthing about Frontend development? let's talk about this!
 

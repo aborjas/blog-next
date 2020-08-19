@@ -2,6 +2,7 @@
 title: 'Start learning HTML'
 date: '2020-08-15'
 image: 'https://adriborjas.com/images/article8.jpg'
+descrition: 'If you are interested in becoming a web developer it is essential to know what HTML (HyperText Markup Language) is.'
 ---
 
 Hello again! If you are interested in becoming a web developer it is essential to know what **HTML (HyperText Markup Language)** is, and to understand its semantics well in order to use it correctly.
