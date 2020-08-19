@@ -6,11 +6,31 @@ import Date from '../components/date'
 import { Header } from 'components/header'
 import { Body } from 'components/body'
 import { Footer } from 'components/footer'
+import { NextSeo } from 'next-seo';
 
 
 export default function Home({ allPostsData }) {
   return (
     <>
+      <NextSeo
+      title="Adriana Borjas"
+      description="Hello there! I'm Adriana Borjas, an engineer and front-end developer with additional studies in graphic design. Take a look of my work here."
+      canonical="https://adriborjas.com/"
+      openGraph={{
+        url: 'https://adriborjas.com/',
+        title: 'Adriana Borjas',
+        description: `Hello there! I'm Adriana Borjas, an engineer and front-end developer with additional studies in graphic design. Take a look of my work here.`,
+        images: [
+          {
+            url: 'https://adriborjas.com/images/fondo.png',
+            width: 800,
+            height: 600,
+            alt: 'img alt',
+          }
+        ],
+        site_name: 'Adriana Borjas',
+      }}
+      />
       <Header />
       <Body posts={allPostsData}/>
       <Footer />
